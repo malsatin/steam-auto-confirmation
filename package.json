@@ -1,0 +1,37 @@
+{
+    "name": "steam-auto-confirmation",
+    "version": "0.0.1",
+    "author": "Malsa",
+    "description": "Accepts/confirms trades in case that you enabled Steam Guard and have it's keys, but don't have access to device",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/MattRh/steam-auto-confirmation"
+    },
+    "bugs": {
+        "url": "https://github.com/MattRh/steam-auto-confirmation/issues"
+    },
+    "homepage": "https://github.com/MattRh/steam-auto-confirmation#readme",
+    "keywords": [
+        "steam",
+        "bots",
+        "trade",
+        "accept",
+        "comfirm"
+    ],
+    "license": "GNU",
+    "dependencies": {
+        "merge": "^1.2.0",
+        "steam-client": "^2.5.5",
+        "steam-totp": "^2.1.0",
+        "steam-tradeoffer-manager": "^2.9.3",
+        "steam-user": "^3.27.0",
+        "steamcommunity": "^3.35.1",
+        "tracer": "^0.8.12"
+    },
+    "engines": {
+        "node": ">=8.11.0"
+    }
+}
