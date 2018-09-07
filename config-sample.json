@@ -3,8 +3,7 @@
     "password": "xxx",
     "shared_secret": "xxx",
     "identity_secret": "xxx",
-    "confirm_incoming": true,
-    "confirm_outgoing": true,
+    "auto_confirm": true,
     "accept_gifts": true,
     "accept_incoming": null
 }

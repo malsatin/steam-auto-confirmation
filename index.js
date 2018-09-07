@@ -22,8 +22,7 @@ function prepareConfig(rawConfig) {
     }
     const requiredProps = ["username", "password", "shared_secret", "identity_secret"];
     const defaultProps = {
-        "confirm_incoming": true,
-        "confirm_outgoing": true,
+        "auto_confirm": true,
         "accept_gifts": true, // can be true|false|null. On null incoming gifts are ignored
         "accept_incoming": null // can be true|false|null. On null incoming trades except gifts are ignored
     };
@@ -39,8 +38,11 @@ function prepareConfig(rawConfig) {
 }
 
 let rawConfig = fs.readFileSync("./config.json");
+let config = prepareConfig(rawConfig);
 
-let bot = new Bot(prepareConfig(rawConfig), log);
+log.log("Config loaded");
+
+let bot = new Bot(config, log);
 bot.start();
 
 process.on("SIGINT", function() {
