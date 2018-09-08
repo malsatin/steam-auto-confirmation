@@ -4,6 +4,6 @@
     "shared_secret": "xxx",
     "identity_secret": "xxx",
     "auto_confirm": true,
-    "accept_gifts": true,
+    "accept_gifts": null,
     "accept_incoming": null
 }
