@@ -62,7 +62,7 @@ function startNextBot() {
             clearInterval(checker);
             bot.stop();
 
-            log.info("Switching bot..");
+            log.info("Switching bot..\n");
 
             startNextBot();
         }
