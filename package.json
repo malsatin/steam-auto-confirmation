@@ -1,6 +1,6 @@
 {
     "name": "steam-auto-confirmation",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "author": "Malsa",
     "description": "Accepts/confirms trades in case that you enabled Steam Guard and have it's keys, but don't have access to device",
     "scripts": {
