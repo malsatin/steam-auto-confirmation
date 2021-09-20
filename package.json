@@ -25,10 +25,10 @@
     "dependencies": {
         "merge": "^1.2.0",
         "steam-client": "^2.5.8",
-        "steam-totp": "^2.1.0",
-        "steam-tradeoffer-manager": "^2.9.3",
-        "steam-user": "^3.28.2",
-        "steamcommunity": "^3.35.1",
+        "steam-totp": "^2.1.1",
+        "steam-tradeoffer-manager": "^2.10.3",
+        "steam-user": "^4.19.12",
+        "steamcommunity": "^3.43.1",
         "tracer": "^0.9.1"
     },
     "engines": {
